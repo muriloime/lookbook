@@ -24,7 +24,7 @@ module Lookbook
     end
 
     def label
-      @preview_inspector&.label&.presence || lookup_path.split("/").last.titleize
+      @preview_inspector&.label&.presence || lookup_path.split("/").last&.titleize || 'label'
     end
 
     def type
