@@ -10,7 +10,7 @@ end
 
 group :development, :test do
   gem "sqlite3", "~> 1.5"
-  gem "standard", "~> 1.1"
+  gem "standard", "~> 1.21"
   gem "combustion", "~> 1.3"
   gem "actionpack"
   gem "appraisal"
